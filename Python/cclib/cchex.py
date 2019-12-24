@@ -363,7 +363,7 @@ class CCHEXFile:
 					#print "0x%06x : " % bAddr, "".join( "%02x " % x for x in bytes )
 
 				elif bType == 0x05:
-    				print("Ignore 0x05")
+					print("Ignore 0x05")
 
 				# Everything else raise error
 				else:
